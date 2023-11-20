@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Vipe Studio</title>
+    <meta name="title" content="Vipe Studio" />
+    <meta name="description" content="WordPress Development Agency" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Vipe Studio" />
+    <meta property="og:description" content="WordPress Development Agency" />
+    <meta property="og:image" content="https://thumbs2.imgbox.com/01/64/k9JDMq0d_t.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Vipe Studio" />
+    <meta property="twitter:description" content="WordPress Development Agency" />
+    <meta property="twitter:image" content="https://thumbs2.imgbox.com/01/64/k9JDMq0d_t.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/robot-img.png">
+</head>
+
+<body class="overflow-hidden">
+    <div id="preloder" class="z-[5] h-screen bg-[#0D0D0D] flex justify-center items-center fixed top-0 left-0 w-full">
+        <div>
+            <img class="preloader-img" src="assets/images/Logo.png" alt="logo">
+        </div>
+    </div>
+    <!-- back to top -->
+    <button id="top" class="fixed" onclick="backToTop()"><img class="w-100" src="assets/images/top-button.webp"
+            alt="back to top icon"></button>
+    <header class="bg-[#0D0D0D] overflow-hidden pb-11">
+        <nav>
+            <div class="max-w-[1320px] mx-auto px-3">
+                <div class="flex justify-between items-center py-3.5">
+                    <div class="xl:flex xl:items-center">
+                        <span>
+                            <img src="assets/images/Logo.png" alt="logo">
+                        </span>
+                        <ul class="flex flex-col justify-center xl:flex-row items-center fixed top-0 xl:static -left-full gap-5 xl:pl-12 bg-gray-700  xl:bg-transparent duration-300 w-full h-full sm:w-2/4 xl:w-full z-[3]"
+                            id="mobileView">
+                            <li class="xl:hidden">
+                                <img src="assets/images/Logo.png" alt="logo">
+                            </li>
+                            <li class="relative"><a class="flex items-center gap-2.5 text-base text-white font-normal"
+                                    href="#">WordPress
+                                    Solution
+                                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.8789 0.292969L6.58591 4.58597L2.29291 0.292969L0.878906 1.70697L6.58591 7.41397L12.2929 1.70697L10.8789 0.292969Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li><a class="flex items-center gap-2.5 text-base text-white font-normal" href="#">Services
+                                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.8789 0.292969L6.58591 4.58597L2.29291 0.292969L0.878906 1.70697L6.58591 7.41397L12.2929 1.70697L10.8789 0.292969Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a></li>
+                            <li><a class="text-base text-white font-normal" href="#">Portfolio</a></li>
+                            <li><a class="flex items-center gap-2.5 text-base text-white font-normal" href="#">About
+                                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.8789 0.292969L6.58591 4.58597L2.29291 0.292969L0.878906 1.70697L6.58591 7.41397L12.2929 1.70697L10.8789 0.292969Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a></li>
+                            <li><a class="text-base text-white font-normal" href="#">Blog</a></li>
+                            <li class="md:hidden"><a class="text-base text-white font-normal" href="#">1 888
+                                    266-6917 (eu?)</a></li>
+                            <li class="md:hidden"><a
+                                    class="text-lg text-white font-semibold bg-[#6022EA] py-2.5 px-6 rounded-[80px]"
+                                    href="#">Contact Us</a></li>
+                            <li class="md:hidden"><a class="flex items-center gap-2 text-base text-white font-normal"
+                                    href="#">
+                                    <span>
+                                        <img src="assets/images/globe-logo.svg" alt="globe-logo">
+                                    </span>
+                                    Eng
+                                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.8789 0.292969L6.58591 4.58597L2.29291 0.292969L0.878906 1.70697L6.58591 7.41397L12.2929 1.70697L10.8789 0.292969Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a></li>
+                        </ul>
+                    </div>
+                    <ul class="sm:flex sm:items-center">
+                        <li class="hidden md:block"><a class="text-base text-white font-normal" href="#">1 888 266-6917
+                                (eu?)</a></li>
+                        <li class="pl-9 hidden md:block"><a
+                                class="text-lg text-white font-semibold bg-[#6022EA] py-2.5 px-6 rounded-[80px]"
+                                href="#">Contact Us</a></li>
+                        <li class="pl-5 hidden md:block"><a
+                                class="flex items-center gap-2 text-base text-white font-normal" href="#">
+                                <span>
+                                    <img src="assets/images/globe-logo.svg" alt="globe-logo">
+                                </span>
+                                Eng
+                                <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.8789 0.292969L6.58591 4.58597L2.29291 0.292969L0.878906 1.70697L6.58591 7.41397L12.2929 1.70697L10.8789 0.292969Z"
+                                        fill="white" />
+                                </svg>
+
+                            </a>
+                        </li>
+                        <li>
+                            <label class="flex flex-col ml-5 menu xl:hidden relative z-[4]">
+                                <span class="span1 h-1 w-7 bg-white rounded-2xl mb-1 duration-300"></span>
+                                <span class="span2 h-1 w-7 bg-white rounded-2xl mb-1 duration-300"></span>
+                                <span class="span3 h-1 w-7 bg-white rounded-2xl duration-300"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="max-w-[1320px] mx-auto px-3 pt-8 lg:pt-28">
+            <div class="grid grid-cols-1 lg:grid-cols-2 relative z-[1]">
+                <div>
+                    <div
+                        class="hidden lg:block w-80 h-64 blur-[137px] bg-[#6022EA] fill-[#6022EA] absolute top-[-8%] right-[-17%] z-[-1] animate -pulse">
+                    </div>
+                    <div
+                        class="hidden lg:block w-80 h-64 blur-[137px] bg-[#FA00FF] fill-[#FA00FF] absolute top-[-5%] right-[-11%]  z-[-1] animate -pulse">
+                    </div>
+                    <h1
+                        class="ff-Konexy text-white font-normal text-[42px]  sm:text-7xl leading-[57px] sm:leading-[76px] after:absolute relative after:h-full after:max-h-[201px] after:w-[5px] after:left-[-11px] after:top-[8px] after:bg-[#6022EA]">
+                        WordPress Development
+                        Agency
+                    </h1>
+                    <p class="ff-Gilroy text-white text-2xl font-bold leading-7 pt-7">for Enterprise + Friendly
+                        Team
+                    </p>
+                    <p class="text-[#B2B2B2] text-base font-normal leading-6 max-w-[592px] pt-6 ff-Gilroy">Vipe
+                        Studio
+                        is a WordPress Agency for development - a long-term partner for any WordPress service.
+                        Websites
+                        and,online shops development, maintenance and customization is what
+                        we do best.</p>
+                    <div class="flex flex-col sm:flex-row pt-7 gap-9">
+                        <button
+                            class="font-semibold font-Gilroy text-lg py-[10px] px-6 rounded-full bg-[#6022EA] text-white mr-[10px]"
+                            type="submit">Get Started</button>
+                        <p class="text-[#B2B2B2] flex items-center "><svg class="mr-3"
+                                xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M16 0C7.16429 0 0 7.16429 0 16C0 24.8357 7.16429 32 16 32C24.8357 32 32 24.8357 32 16C32 7.16429 24.8357 0 16 0ZM21.1464 16.2464L13.3464 21.9214C13.3037 21.9522 13.2533 21.9705 13.2008 21.9744C13.1482 21.9784 13.0957 21.9678 13.0488 21.9438C13.0019 21.9198 12.9626 21.8834 12.9351 21.8385C12.9075 21.7936 12.8929 21.7419 12.8929 21.6893V10.3464C12.8927 10.2937 12.9071 10.2419 12.9346 10.1968C12.962 10.1518 13.0014 10.1152 13.0484 10.0912C13.0954 10.0671 13.1481 10.0566 13.2007 10.0606C13.2533 10.0647 13.3037 10.0833 13.3464 10.1143L21.1464 15.7857C21.1833 15.8118 21.2133 15.8463 21.2341 15.8864C21.2548 15.9265 21.2657 15.9709 21.2657 16.0161C21.2657 16.0612 21.2548 16.1057 21.2341 16.1458C21.2133 16.1858 21.1833 16.2204 21.1464 16.2464Z"
+                                    fill="white" />
+                            </svg>What is Vipe? (1min)</p>
+                    </div>
+                </div>
+                <div class="flex justify-center pt-10 lg:pt-0">
+                    <img class="max-w-[761px] w-full rounded-[20px]" src="assets/images/hero-section-img.png"
+                        alt="hero-section-img">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- tell more section -->
+    <section class="bg-[#0D0D0D]">
+        <div class="max-w-[1320px] mx-auto px-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 pt-0 sm:pt-16 pb-16">
+                <div>
+                    <h2 class="text-white text-4xl font-normal ff-Konexy pb-4">Tell us more....</h2>
+                    <p class="text-white text-base font-normal ff-Gilroy leading-6 max-w-xl">Lectus vitae est ultrices
+                        sed. Sit
+                        aliquam commodo hac donec augue in quis. Magna vel orci sem neque fringilla et lectus laoreet.
+                    </p>
+                </div>
+                <div class="sm:ps-8 lg:ps-32 pt-8 sm:pt-0">
+                    <span class="relative">
+                        <input
+                            class="bg-[#252525] ff-Gilroy font-normal text-base leading-6 py-5 placeholder:text-[#BEBEBF]  ps-8 pr-11 w-full rounded-[80px] outline-none text-[#BEBEBF]"
+                            type="text" placeholder="What do you need assistance with?">
+                        <img class="absolute right-5 top-0" src="assets/images/search-icon.svg" alt="search-icon">
+                    </span>
+                    <div class="flex justify-between max-w-[537px] pt-3">
+                        <p class="text-white text-base font-normal ff-Gilroy leading-6 flex"><img class="mr-2"
+                                src="assets/images/recycle-logo.svg" alt="recycle-icon">or send us an
+                            inquire? </p>
+                        <p class="text-white text-base font-normal ff-Gilroy leading-6 ">Learn more about...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured section -->
+    <section class="bg-[#F6F6F6]">
+        <div class="max-w-[1320px] mx-auto px-3 pt-8 lg:pt-28 pb-12 lg:pb-24">
+            <h2 class="text-black ff-Konexy text-5xl font-normal pb-16">Featured on</h2>
+            <div class="flex gap-12 flex-wrap items-center justify-center">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/yahoo-news.png" alt="yahoo-news">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/yahoo-finance.png"
+                    alt="yahoo-finance">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/yahoo-news.png" alt="yahoo-news">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/trending-topics.png"
+                    alt="trending-topics">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/yahoo-life.png" alt="yahoo-life">
+                <img class="w-2/5 max-w-[172px] sm:w-auto h-full" src="assets/images/trending-topics.png"
+                    alt="trending-topics">
+            </div>
+        </div>
+    </section>
+    <!-- integer section -->
+    <section>
+        <div class="max-w-[1320px] mx-auto px-3 pt-8 lg:pt-24 pb-12 lg:pb-32">
+            <h2 class="txt-black font-normal ff-Konexy text-5xl pb-14">Integer et nisl non</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div
+                    class="rounded-2xl border border-[#E5E5E7] xl:max-w-[418px] px-9 pb-5 md:pb-9 pt-6 md:pt-14 flex flex-col hover:border-white hover:shadow-integershadow duration-300">
+                    <span class="flex justify-center pb-2 md:pb-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="70" viewBox="0 0 71 70" fill="none">
+                            <g opacity="0.9">
+                                <path
+                                    d="M47.1973 18.0469C47.1973 17.7461 46.9512 17.5 46.6504 17.5H20.4004C20.0996 17.5 19.8535 17.7461 19.8535 18.0469V21.3281C19.8535 21.6289 20.0996 21.875 20.4004 21.875H46.6504C46.9512 21.875 47.1973 21.6289 47.1973 21.3281V18.0469ZM46.6504 27.3437H20.4004C20.0996 27.3437 19.8535 27.5898 19.8535 27.8906V31.1719C19.8535 31.4727 20.0996 31.7187 20.4004 31.7187H46.6504C46.9512 31.7187 47.1973 31.4727 47.1973 31.1719V27.8906C47.1973 27.5898 46.9512 27.3437 46.6504 27.3437ZM32.9785 37.1875H20.4004C20.0996 37.1875 19.8535 37.4336 19.8535 37.7344V41.0156C19.8535 41.3164 20.0996 41.5625 20.4004 41.5625H32.9785C33.2793 41.5625 33.5254 41.3164 33.5254 41.0156V37.7344C33.5254 37.4336 33.2793 37.1875 32.9785 37.1875ZM29.6973 58.2422H14.3848V10.1172H52.666V33.6328C52.666 33.9336 52.9121 34.1797 53.2129 34.1797H57.041C57.3418 34.1797 57.5879 33.9336 57.5879 33.6328V7.38281C57.5879 6.17285 56.6104 5.19531 55.4004 5.19531H11.6504C10.4404 5.19531 9.46289 6.17285 9.46289 7.38281V60.9766C9.46289 62.1865 10.4404 63.1641 11.6504 63.1641H29.6973C29.998 63.1641 30.2441 62.918 30.2441 62.6172V58.7891C30.2441 58.4883 29.998 58.2422 29.6973 58.2422ZM54.0879 53.1562C56.0703 51.3584 57.3145 48.7607 57.3145 45.8691C57.3145 40.4346 52.9053 36.0254 47.4707 36.0254C42.0361 36.0254 37.627 40.4346 37.627 45.8691C37.627 48.7607 38.8711 51.3584 40.8535 53.1562C36.957 55.3779 34.2773 59.4932 34.0723 64.2373C34.0586 64.5449 34.3115 64.8047 34.6191 64.8047H37.9072C38.1943 64.8047 38.4336 64.5791 38.4541 64.2852C38.7207 59.5547 42.665 55.7812 47.4707 55.7812C52.2764 55.7812 56.2207 59.5547 56.4873 64.2852C56.501 64.5723 56.7402 64.8047 57.0342 64.8047H60.3223C60.6367 64.8047 60.8828 64.5449 60.8691 64.2373C60.6709 59.4863 57.9844 55.3779 54.0879 53.1562ZM47.4707 40.4004C50.4922 40.4004 52.9395 42.8477 52.9395 45.8691C52.9395 48.8906 50.4922 51.3379 47.4707 51.3379C44.4492 51.3379 42.002 48.8906 42.002 45.8691C42.002 42.8477 44.4492 40.4004 47.4707 40.4004Z"
+                                    fill="#4F00FF" />
+                            </g>
+                        </svg>
+                    </span>
+                    <p class="text-black text-2xl font-semibold font-Inter leading-8 text-center pb-4 self-stretch">
+                        Enterprise
+                        WordPress
+                        Solutions </p>
+                    <p
+                        class="font-normal text-base text-[#4D4D4D] leading-6 text-center ff-Gilroy pb-2 md:pb-5 self-stretch">
+                        Pretium, a
+                        et
+                        sapien non nunc libero. Id
+                        dolor sed
+                        quis convallis turpis purus feugiat
+                        nibh eu.
+                        Auctor cras hac ac, sociis diam montes, turpis commodo elit.</p>
+                    <a class="flex justify-center font-semibold text-[#6022EA] text-base ff-Gilroy leading-6"
+                        href="">Learn
+                        More</a>
+                </div>
+                <div
+                    class="rounded-2xl border border-[#E5E5E7] xl:max-w-[418px] px-9 pb-5 md:pb-9 pt-6 md:pt-14 flex flex-col hover:border-white hover:shadow-integershadow duration-300">
+                    <span class="flex justify-center pb-2 md:pb-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="70" viewBox="0 0 71 70" fill="none">
+                            <path
+                                d="M17.9588 8.75V17.5H9.18808V8.75H17.9588ZM4.80273 4.375V21.875H22.3441V4.375H4.80273Z"
+                                fill="#6022EA" />
+                            <path
+                                d="M39.8865 15.3125V24.0625H31.1158V15.3125H39.8865ZM26.7305 10.9375V28.4375H44.2718V10.9375H26.7305Z"
+                                fill="#6022EA" />
+                            <path
+                                d="M17.9588 35V43.75H9.18808V35H17.9588ZM4.80273 30.625V48.125H22.3441V30.625H4.80273Z"
+                                fill="#6022EA" />
+                            <path
+                                d="M48.6558 21.875V35H35.4998V48.125H22.3438V65.625H66.1972V21.875H48.6558ZM39.8851 39.375H48.6558V48.125H39.8851V39.375ZM35.4998 61.25H26.7291V52.5H35.4998V61.25ZM48.6558 61.25H39.8851V52.5H48.6558V61.25ZM61.8118 61.25H53.0411V52.5H61.8118V61.25ZM61.8118 48.125H53.0411V39.375H61.8118V48.125ZM53.0411 35V26.25H61.8118V35H53.0411Z"
+                                fill="#6022EA" />
+                        </svg>
+                    </span>
+                    <p class="text-black text-2xl font-semibold font-Inter leading-8 text-center pb-4 self-stretch">
+                        Small to Mid Size Business Development </p>
+                    <p
+                        class="font-normal text-base text-[#4D4D4D] leading-6 text-center ff-Gilroy pb-2 md:pb-5 self-stretch">
+                        Et nunc fermentum id amet tempus, elementum. Eget ac ultrices tortor, mattis amet blandit aenean
+                        amet. Massa diam lacus, aliquam neque, cursus.</p>
+                    <a class="flex justify-center font-semibold text-[#6022EA] text-base ff-Gilroy leading-6"
+                        href="">Learn
+                        More</a>
+                </div>
+                <div
+                    class="rounded-2xl border border-[#E5E5E7] xl:max-w-[418px] px-9 pb-5 md:pb-9 pt-6 md:pt-14 flex flex-col hover:border-white hover:shadow-integershadow duration-300">
+                    <span class="flex justify-center pb-2 md:pb-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="66" viewBox="0 0 71 66" fill="none">
+                            <g clip-path="url(#clip0_31_704)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M37.8975 49.4498C32.0015 49.4498 26.0114 45.9498 22.5155 41.3172C5.74334 41.3172 5.23633 65.2775 5.23633 65.2775H70.5547C70.5547 65.2775 71.8713 41.2109 53.0097 41.2109C49.5179 45.9008 43.7936 49.4498 37.8975 49.4498Z"
+                                    fill="#4F00FF" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M51.9465 20.7262C51.9465 27.6199 45.6539 40.8022 37.8852 40.8022C30.1288 40.8022 23.832 27.6158 23.832 20.7262C23.832 13.8366 30.1247 8.24316 37.8852 8.24316C45.6539 8.24725 51.9465 13.8407 51.9465 20.7262Z"
+                                    fill="#4F00FF" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M58.2169 14.7768C58.2169 13.4847 56.4178 12.4421 54.1854 12.4339V9.77209C54.1854 9.37547 54.3367 0.0898438 37.9325 0.0898438C21.5364 0.0898438 21.6877 9.37547 21.6877 9.77209V12.5279C21.6468 12.5279 21.6141 12.5157 21.5773 12.5157C19.3571 12.5157 17.5703 13.5419 17.5703 14.8136V26.0741C17.5703 27.3375 19.3612 28.3679 21.5773 28.3679C23.7934 28.3679 25.5925 27.3375 25.5925 26.0741V14.8136C25.5925 14.6377 25.4821 14.4783 25.4167 14.3147V11.244C25.4167 10.9619 24.2391 3.95375 37.9325 3.95375C51.6299 3.95375 50.207 10.9619 50.207 11.244V14.4783C50.1824 14.5805 50.1048 14.6705 50.1048 14.7768V26.2949C50.1048 27.591 51.9161 28.6418 54.1608 28.6418C54.2099 28.6418 54.2467 28.6255 54.2958 28.6255V32.8328H50.2724V36.799H58.2578L58.2169 14.7768Z"
+                                    fill="#4F00FF" />
+                            </g>
+                        </svg>
+                    </span>
+                    <p class="text-black text-2xl font-semibold font-Inter leading-8 text-center pb-4 self-stretch">
+                        Support & Maintenance </p>
+                    <p
+                        class="font-normal text-base text-[#4D4D4D] leading-6 text-center ff-Gilroy pb-2 md:pb-5 self-stretch">
+                        Ac donec ipsum fringilla tortor, consectetur etiam sociis amet quis. Viverra volutpat pretium
+                        non in fusce tellus sed urna. Pharetra ullamcorper et donec aliquam.</p>
+                    <a class="flex justify-center font-semibold text-[#6022EA] text-base ff-Gilroy leading-6"
+                        href="">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black overflow-hidden">
+        <div class="container max-w-[1320px] mx-auto px-3 pt-12 lg:pt-20 pb-0 lg:pb-20">
+            <div class="grid sm:grid-cols-1 lg:grid-cols-2 lg:justify-items-center content-center pb-12">
+                <h2 class="max-w-[533px] text-white ff-Konexy text-[40px] font-normal leading-[normal]">All Vipe
+                    Studio WordPress services include:</h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-0 gap-[50px]">
+                    <div>
+                        <p class="text-white font-gilroy text-[24px] font-semibold leading-[31px] pb-[23px]">By Industry
+                        </p>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Lorem in elementum
+                                pellentesque</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Molestie cursus
+                                praesent mi</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Leo sed viverra
+                                cras</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Laoreet feugiat ut
+                                at</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Risus aliquam
+                                molestie viverra</p>
+                        </div>
+                        <div class="flex items-center gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Diam enim pulvinar
+                                velit</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-white font-gilroy text-[24px] font-semibold leading-[31px] pb-[23px]">By Services
+                        </p>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Accumsan, dui a
+                                semper</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Interdum malesuada
+                                vulputate neque</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Nullam non a, morbi
+                            </p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Arcu morbi leo eu
+                            </p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Viverra venenatis,
+                                in ornare</p>
+                        </div>
+                        <div class="flex items-center pb-[11px] gap-[10px]">
+                            <img src="assets/images/check-symbol-with-bg.svg" alt="check-symbol">
+                            <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Erat id aliquam
+                                habitant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container max-w-[1320px] mx-auto px-3 pt-8 lg:pt-28 pb-20 relative">
+            <div class="w-[174px] h-[174px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute right-[15%] bottom-[-12%]">
+            </div>
+            <div class="w-[174px] h-[174px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute right-[-5%] top-[50%]">
+            </div>
+            <div class="w-[174px] h-[174px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute left-[1%] top-[10%]">
+            </div>
+            <div class="w-[174px] h-[174px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute left-[-10%] top-[-8%]">
+            </div>
+            <div
+                class="bg-black rounded-[25px] p-[27px_32px] grid md:grid-cols-2 lg:grid-cols-3 justify-center items-center relative z-10">
+                <div>
+                    <p class="max-w-[324px] text-white ff-Konexy font-normal text-[35px] ">Not Sure which service you
+                        need yet? </p>
+                    <button
+                        class="font-gilroy mt-[38px] text-white font-semibold text-[16px] leading-[24px] bg-[#6022EA] rounded-[80px] gap-[10px] px-[24px] py-[10px] inline-flex">Schedule
+                        An Appointment</button>
+                </div>
+                <div class="pt-10 md:pt-0">
+                    <p class="text-white text-[24px] font-gilroy leading-[31px] font-bold max-w-[386px]">20-m free
+                        consultation that will help us identifyif you need</p>
+                    <div class="flex items-center gap-[10px] pt-[25px] pb-[15px]">
+                        <img src="assets/images/check-symbol.svg" alt="check">
+                        <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Custom WordPress
+                            Development</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] pb-[15px]">
+                        <img src="assets/images/check-symbol.svg" alt="check">
+                        <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Support & Maintenance
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-[10px] pb-[15px]">
+                        <img src="assets/images/check-symbol.svg" alt="check">
+                        <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Other WordPress Service
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-[10px] pb-[15px]">
+                        <img src="assets/images/check-symbol.svg" alt="check-symbol">
+                        <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Technical Description &
+                            Discovery</p>
+                    </div>
+                </div>
+                <div class="flex justify-center pt-11 lg:pt-0">
+                    <img class="w-full" src="assets/images/wordpress-sec-img.png" alt="wordpress-sec-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- long-term-section -->
+    <section class="bg-[#F5F5F6]">
+        <div class="max-w-[1320px] mx-auto px-3 py-16">
+            <h2 class="text-5xl ff-Konexy font-semibold max-w-[630px] text-black">Long Term WordPress Partner</h2>
+            <p class="text-base ff-Gilroy font-normal leading-6 text-[#313131] max-w-[693px] pt-5">Our motto is the
+                long-term partnership
+                – we will not
+                only develop your perfect website, but will be behind you through the whole process. They already
+                trusted us:</p>
+            <div class="flex gap-12 items-center pt-9 flex-wrap justify-center">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-1.png" alt="img">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-2.png" alt="img">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-3.png" alt="img">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-2.png" alt="img">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-4.png" alt="img">
+                <img class="w-2/5 max-w-[180px] sm:w-auto h-full" src="assets/images/long-term-sec-img-2.png" alt="img">
+            </div>
+        </div>
+    </section>
+    <!-- agile wordpress section -->
+    <section>
+        <div class="max-w-[1320px] mx-auto px-3 pt-16 pb-16 lg:pb-28">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="flex justify-center">
+                    <img class="w-full max-w-[610px]" src="assets/images/heaxagon-img.png" alt="heaxagon-img">
+                </div>
+                <div class="flex flex-col justify-center pt-10 lg:pt-0">
+                    <h2 class="text-black ff-Konexy font-semibold text-5xl"> <span class="text-[#6022EA]">Agile
+                            WordPress</span>
+                        Development Project management
+                    </h2>
+                    <p class="text-base font-normal leading-6 text-[#4C4C4C] ff-Gilroy pt-3 pb-8">Suspendisse
+                        consequat
+                        egestas arcu et
+                        et.
+                        Viverra quis
+                        euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in. Elit, ultricies vitae
+                        pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus eget euismod in bibendum
+                        turpis. </p>
+                    <button
+                        class="bg-[#6022EA] py-[10px] px-6 rounded-full text-white text-base ff-Gilroy font-semibold leading-6 w-[103px]">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- full team section -->
+    <section
+        class="after:absolute relative after:left-0 after:top-0 after:w-full after:bg-[#F6F6F6] lg:after:max-h-[478px] after:h-full after:z-[-1] z-[1]">
+        <div class="max-w-[1320px] mx-auto px-3 py-14 lg:py-28">
+            <div class="grid grid-cols-1 lg:grid-cols-2 relative">
+                <div>
+                    <h2 class="text-black ff-Konexy font-semibold text-5xl pb-3">Team Full of Stars</h2>
+                    <p class="text-base text-black font-normal ff-Gilroy leading-6 max-w-[476px] pb-8">Suspendisse
+                        consequat
+                        egestas arcu
+                        et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in.
+                        Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus
+                        eget euismod in bibendum turpis. </p>
+                    <button
+                        class="bg-[#6022EA] py-[10px] px-6 rounded-full text-white text-base ff-Gilroy font-semibold leading-6 w-[103px]">Explore</button>
+                </div>
+                <div class="flex justify-center">
+                    <img class="w-full max-w-[686px]" src="assets/images/team-img.png" alt="team-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- success guidlines section -->
+    <section>
+        <div class="max-w-[1320px] mx-auto px-3 pb-[190px] lg:pb-[250px] relative">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-10">
+                <img class="col-span-2 w-full max-w-[413px] lg:max-w-full ml-auto mr-auto"
+                    src="assets/images/robot-img.png" alt="robot-img">
+                <div class="col-span-3">
+                    <p class="text-base text-[#868687] font-normal ff-Gilroy">HAVE YOU SEEN OUR MASCOT?</p>
+                    <h2 class="text-5xl text-black font-semibold ff-Konexy">Success Guides</h2>
+                    <div class="flex flex-wrap gap-3 pt-5 pb-8 justify-center sm:justify-start">
+                        <button
+                            class="text-base font-normal ff-Gilroy leading-6 text-[#6022EA] bg-transparent border border-[#6022EA] py-2 px-4 rounded-[80px] hover:bg-[#6022EA] hover:text-white hover:stroke-[2px] duration-500">Category-1</button>
+                        <button
+                            class="text-base font-normal ff-Gilroy leading-6 text-[#6022EA] bg-transparent border border-[#6022EA] py-2 px-4 rounded-[80px] hover:bg-[#6022EA] hover:text-white hover:stroke-[2px] duration-500">Category-1</button>
+                        <button
+                            class="text-base font-normal ff-Gilroy leading-6 text-[#6022EA] bg-transparent border border-[#6022EA] py-2 px-4 rounded-[80px] hover:bg-[#6022EA] hover:text-white hover:stroke-[2px] duration-500">Category-1</button>
+                        <button
+                            class="text-base font-normal ff-Gilroy leading-6 text-[#6022EA] bg-transparent border border-[#6022EA] py-2 px-4 rounded-[80px] hover:bg-[#6022EA] hover:text-white hover:stroke-[2px] duration-500">Category-1</button>
+                    </div>
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        <div class="sm:max-w-[274px] rounded-2xl border border-[#E3E3E3] p-4">
+                            <img class="w-full" src="assets/images/success-guide-card-img.png"
+                                alt="success-guide-card-img">
+                            <p class="text-2xl ff-Gilroy font-semibold leading-8 text-[#0D0D0D] pt-4">Sit diam metus
+                            </p>
+                            <p class="text-base ff-Gilroy font-normal leading-6 text-[#4D4D4D] pt-3">Arcu amet,
+                                consectetur
+                                vel
+                                pellentesque mattis ipsum sed mattis sed.</p>
+                            <a class="text-base font-semibold ff-Gilroy text-[#6022EA] pt-2" href="">Read More....</a>
+                        </div>
+                        <div class="sm:max-w-[274px] rounded-2xl border border-[#E3E3E3] p-4">
+                            <img class="w-full" src="assets/images/success-guide-card-img.png"
+                                alt="success-guide-card-img">
+                            <p class="text-2xl ff-Gilroy font-semibold leading-8 text-[#0D0D0D] pt-4">Sit diam metus
+                            </p>
+                            <p class="text-base ff-Gilroy font-normal leading-6 text-[#4D4D4D] pt-3">Arcu amet,
+                                consectetur
+                                vel
+                                pellentesque mattis ipsum sed mattis sed.</p>
+                            <a class="text-base font-semibold ff-Gilroy text-[#6022EA] pt-2" href="">Read More....</a>
+                        </div>
+                        <div class="sm:max-w-[274px] rounded-2xl border border-[#E3E3E3] p-4">
+                            <img class="w-full" src="assets/images/success-guide-card-img.png"
+                                alt="success-guide-card-img">
+                            <p class="text-2xl ff-Gilroy font-semibold leading-8 text-[#0D0D0D] pt-4">Sit diam metus
+                            </p>
+                            <p class="text-base ff-Gilroy font-normal leading-6 text-[#4D4D4D] pt-3">Arcu amet,
+                                consectetur
+                                vel
+                                pellentesque mattis ipsum sed mattis sed.</p>
+                            <a class="text-base font-semibold ff-Gilroy text-[#6022EA] pt-2" href="">Read More....</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-gradient-to-r from-[#5F21E9] via-[#5F21E9] to-[#FA00FF] rounded-2xl w-full max-w-[1320px] px-12 pt-6 pb-11 flex flex-col sm:flex-row justify-between absolute right-0 bottom-[-5%]">
+                <div>
+                    <h2 class="text-white text-3xl sm:text-5xl ff-Konexy font-semibold ">Have you</h2>
+                    <p
+                        class="text-[18px] sm:text-2xl ff-Gilroy font-semibold text-white max-w-[380px] lg:max-w-[638px] leading-8">
+                        read our study
+                        about Speed
+                        and Performance in WordPress?</p>
+                </div>
+                <div class="flex items-center pt-7 sm:pt-0">
+                    <button class="bg-white rounded-full font-base font-Inter font-semibold px-8 py-3">Check It
+                        Out
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-black overflow-hidden">
+        <div class="max-w-[1320px] mx-auto px-3 pt-[140px]">
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div>
+                    <img src="assets/images/Logo.png" alt="logo">
+                </div>
+                <div class="max-w-[381px] flex items-center relative pt-7 sm:pt-0">
+                    <input
+                        class="ps-5 pr-12 w-[381px] bg-white rounded-full py-2  placeholder:text-[#6F6F6F] placeholder:text-base placeholder:font-normal placeholder:ff-Gilroy text-base outline-none  ff-Gilroy font-normal text-[#6F6F6F]"
+                        type="text" placeholder="Search here....">
+                    <img class="absolute right-6" src="assets/images/footer-seacrh-icon.svg" alt="search-icon">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 pt-12">
+                <ul class="">
+                    <li class="text-white text-base leading-6 font-normal ff-Gilroy pb-4">Services</li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> WordPress Development</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg>WooCommerce Development</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> WordPress Maintenance</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg>Speed Optimization</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> Dedicated WordPress Developer</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> Headless WordPress Development</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> White Label Development</a></li>
+                </ul>
+                <ul class="md:ps-20 xl:p-0">
+                    <li class="text-white text-base leading-6 font-normal ff-Gilroy pb-4">Services</li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> WordPress Hosting</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg>PSD, XD, Figma to WordPress Conversion</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> Custom WordPress Theme</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg>Custom WordPress Plugins</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg> CMS to WordPress</a></li>
+                    <li class="pb-3"><a class="flex text-white text-sm font-normal ff-Gilroy" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                                fill="none">
+                                <path
+                                    d="M7.96166 3.54681C8.00943 3.49789 8.06651 3.45904 8.12955 3.43256C8.19258 3.40607 8.26027 3.39247 8.32865 3.39258C8.39702 3.39268 8.46467 3.40648 8.52762 3.43317C8.59057 3.45985 8.64754 3.49887 8.69516 3.54793L14.5249 9.52955C14.6273 9.63459 14.6846 9.77548 14.6846 9.92217C14.6846 10.0689 14.6273 10.2097 14.5249 10.3148L8.69516 16.2964C8.64746 16.3454 8.59044 16.3843 8.52745 16.4109C8.46446 16.4375 8.39678 16.4512 8.32841 16.4512C8.26004 16.4512 8.19236 16.4375 8.12937 16.4109C8.06638 16.3843 8.00935 16.3454 7.96166 16.2964C7.86353 16.196 7.8086 16.0611 7.8086 15.9207C7.8086 15.7802 7.86353 15.6454 7.96166 15.5449L13.4438 9.92217L7.96166 4.29718C7.86387 4.19677 7.80915 4.06215 7.80915 3.92199C7.80915 3.78183 7.86387 3.64721 7.96166 3.54681ZM3.46165 3.54681C3.50942 3.49789 3.56651 3.45904 3.62954 3.43256C3.69257 3.40607 3.76027 3.39247 3.82864 3.39258C3.89701 3.39268 3.96467 3.40648 4.02762 3.43317C4.09057 3.45985 4.14753 3.49887 4.19515 3.54793L10.0249 9.52955C10.1273 9.63459 10.1846 9.77548 10.1846 9.92217C10.1846 10.0689 10.1273 10.2097 10.0249 10.3148L4.19515 16.2964C4.14746 16.3454 4.09043 16.3843 4.02744 16.4109C3.96445 16.4375 3.89677 16.4512 3.8284 16.4512C3.76003 16.4512 3.69235 16.4375 3.62936 16.4109C3.56637 16.3843 3.50935 16.3454 3.46165 16.2964C3.36353 16.196 3.30859 16.0611 3.30859 15.9207C3.30859 15.7802 3.36353 15.6454 3.46165 15.5449L8.94378 9.92217L3.46165 4.29718C3.36386 4.19677 3.30914 4.06215 3.30914 3.92199C3.30914 3.78183 3.36386 3.64721 3.46165 3.54681Z"
+                                    fill="white" />
+                            </svg>WordPress Malware Removal</a></li>
+                </ul>
+                <ul>
+                    <li class="text-white text-base leading-6 font-normal ff-Gilroy pb-4">Latest Articles</li>
+                    <li class="pb-5"><a class="flex text-white text-sm font-normal ff-Gilroy" href="">7 WordPress
+                            Plugins to Create an Effective Newsletter 03.01.2022</a></li>
+                    <li class="pb-5"><a class="flex text-white text-sm font-normal ff-Gilroy" href="">What’s the
+                            Perfect Blog Post Length for Your WordPress Site’s SEO?
+                            02.01.2022</a></li>
+                    <li class="pb-5"><a class="flex text-white text-sm font-normal ff-Gilroy" href="">5 Reasons the
+                            Future of WordPress Is Headless 01.01.2022</a></li>
+                    <li class="pb-5"><a class="flex text-white text-sm font-normal ff-Gilroy" href="">Viptor Says:
+                            Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</a></li>
+                </ul>
+                <ul class="md:ps-20">
+                    <li class="text-white text-base leading-6 font-normal ff-Gilroy pb-4">Contact</li>
+                    <li class="pb-7"><a class="flex text-white text-sm font-normal ff-Gilroy gap-2" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M13 8C13.7956 8 14.5587 8.31607 15.1213 8.87868C15.6839 9.44129 16 10.2044 16 11C16 11.2652 16.1054 11.5196 16.2929 11.7071C16.4804 11.8946 16.7348 12 17 12C17.2652 12 17.5196 11.8946 17.7071 11.7071C17.8946 11.5196 18 11.2652 18 11C18 9.67392 17.4732 8.40215 16.5355 7.46447C15.5979 6.52678 14.3261 6 13 6C12.7348 6 12.4804 6.10536 12.2929 6.29289C12.1054 6.48043 12 6.73478 12 7C12 7.26522 12.1054 7.51957 12.2929 7.70711C12.4804 7.89464 12.7348 8 13 8Z"
+                                    fill="#CCCCCC" />
+                                <path
+                                    d="M13 4C14.8565 4 16.637 4.7375 17.9497 6.05025C19.2625 7.36301 20 9.14348 20 11C20 11.2652 20.1054 11.5196 20.2929 11.7071C20.4804 11.8946 20.7348 12 21 12C21.2652 12 21.5196 11.8946 21.7071 11.7071C21.8946 11.5196 22 11.2652 22 11C22 8.61305 21.0518 6.32387 19.364 4.63604C17.6761 2.94821 15.3869 2 13 2C12.7348 2 12.4804 2.10536 12.2929 2.29289C12.1054 2.48043 12 2.73478 12 3C12 3.26522 12.1054 3.51957 12.2929 3.70711C12.4804 3.89464 12.7348 4 13 4ZM21.75 15.91C21.695 15.7495 21.6 15.6056 21.4741 15.4919C21.3481 15.3781 21.1953 15.2984 21.03 15.26L15.03 13.89C14.8671 13.8531 14.6976 13.8575 14.5369 13.9029C14.3762 13.9484 14.2294 14.0333 14.11 14.15C13.97 14.28 13.96 14.29 13.31 15.53C11.1532 14.5362 9.42499 12.8009 8.44 10.64C9.71 10 9.72 10 9.85 9.85C9.96671 9.73056 10.0516 9.58379 10.0971 9.42308C10.1425 9.26238 10.1469 9.09286 10.11 8.93L8.74 3C8.70165 2.8347 8.62186 2.68187 8.50814 2.55591C8.39443 2.42995 8.25053 2.335 8.09 2.28C7.85647 2.19659 7.61531 2.1363 7.37 2.1C7.11725 2.0414 6.85933 2.0079 6.6 2C5.38 2 4.20998 2.48464 3.34731 3.34731C2.48464 4.20998 2 5.38 2 6.6C2.00529 10.6827 3.62949 14.5967 6.5164 17.4836C9.40331 20.3705 13.3173 21.9947 17.4 22C18.0041 22 18.6022 21.881 19.1603 21.6498C19.7184 21.4187 20.2255 21.0798 20.6527 20.6527C21.0798 20.2255 21.4187 19.7184 21.6498 19.1603C21.881 18.6022 22 18.0041 22 17.4C22.0003 17.1455 21.9802 16.8913 21.94 16.64C21.898 16.3916 21.8344 16.1474 21.75 15.91Z"
+                                    fill="#CCCCCC" />
+                            </svg>EU: +359 988 993 128</a></li>
+                    <li class="pb-7"><a class="flex text-white text-sm font-normal ff-Gilroy gap-2" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M13 8C13.7956 8 14.5587 8.31607 15.1213 8.87868C15.6839 9.44129 16 10.2044 16 11C16 11.2652 16.1054 11.5196 16.2929 11.7071C16.4804 11.8946 16.7348 12 17 12C17.2652 12 17.5196 11.8946 17.7071 11.7071C17.8946 11.5196 18 11.2652 18 11C18 9.67392 17.4732 8.40215 16.5355 7.46447C15.5979 6.52678 14.3261 6 13 6C12.7348 6 12.4804 6.10536 12.2929 6.29289C12.1054 6.48043 12 6.73478 12 7C12 7.26522 12.1054 7.51957 12.2929 7.70711C12.4804 7.89464 12.7348 8 13 8Z"
+                                    fill="#CCCCCC" />
+                                <path
+                                    d="M13 4C14.8565 4 16.637 4.7375 17.9497 6.05025C19.2625 7.36301 20 9.14348 20 11C20 11.2652 20.1054 11.5196 20.2929 11.7071C20.4804 11.8946 20.7348 12 21 12C21.2652 12 21.5196 11.8946 21.7071 11.7071C21.8946 11.5196 22 11.2652 22 11C22 8.61305 21.0518 6.32387 19.364 4.63604C17.6761 2.94821 15.3869 2 13 2C12.7348 2 12.4804 2.10536 12.2929 2.29289C12.1054 2.48043 12 2.73478 12 3C12 3.26522 12.1054 3.51957 12.2929 3.70711C12.4804 3.89464 12.7348 4 13 4ZM21.75 15.91C21.695 15.7495 21.6 15.6056 21.4741 15.4919C21.3481 15.3781 21.1953 15.2984 21.03 15.26L15.03 13.89C14.8671 13.8531 14.6976 13.8575 14.5369 13.9029C14.3762 13.9484 14.2294 14.0333 14.11 14.15C13.97 14.28 13.96 14.29 13.31 15.53C11.1532 14.5362 9.42499 12.8009 8.44 10.64C9.71 10 9.72 10 9.85 9.85C9.96671 9.73056 10.0516 9.58379 10.0971 9.42308C10.1425 9.26238 10.1469 9.09286 10.11 8.93L8.74 3C8.70165 2.8347 8.62186 2.68187 8.50814 2.55591C8.39443 2.42995 8.25053 2.335 8.09 2.28C7.85647 2.19659 7.61531 2.1363 7.37 2.1C7.11725 2.0414 6.85933 2.0079 6.6 2C5.38 2 4.20998 2.48464 3.34731 3.34731C2.48464 4.20998 2 5.38 2 6.6C2.00529 10.6827 3.62949 14.5967 6.5164 17.4836C9.40331 20.3705 13.3173 21.9947 17.4 22C18.0041 22 18.6022 21.881 19.1603 21.6498C19.7184 21.4187 20.2255 21.0798 20.6527 20.6527C21.0798 20.2255 21.4187 19.7184 21.6498 19.1603C21.881 18.6022 22 18.0041 22 17.4C22.0003 17.1455 21.9802 16.8913 21.94 16.64C21.898 16.3916 21.8344 16.1474 21.75 15.91Z"
+                                    fill="#CCCCCC" />
+                            </svg>US: +1 (1 888) 266-6917</a></li>
+                    <li class="pb-7"><a class="flex text-white text-sm font-normal ff-Gilroy gap-2" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M6 4.5C5.20435 4.5 4.44129 4.81607 3.87868 5.37868C3.31607 5.94129 3 6.70435 3 7.5V7.8015L12 12.648L21 7.803V7.5C21 6.70435 20.6839 5.94129 20.1213 5.37868C19.5587 4.81607 18.7956 4.5 18 4.5H6Z"
+                                    fill="#CCCCCC" />
+                                <path
+                                    d="M21 9.50586L12.3555 14.1604C12.2462 14.2192 12.1241 14.25 12 14.25C11.8759 14.25 11.7538 14.2192 11.6445 14.1604L3 9.50586V16.5004C3 17.296 3.31607 18.0591 3.87868 18.6217C4.44129 19.1843 5.20435 19.5004 6 19.5004H18C18.7956 19.5004 19.5587 19.1843 20.1213 18.6217C20.6839 18.0591 21 17.296 21 16.5004V9.50586Z"
+                                    fill="#CCCCCC" />
+                            </svg>office@vipestudio.com</a></li>
+                    <li class="pb-7"><a class="flex text-white text-sm font-normal ff-Gilroy gap-2" href=""><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22"
+                                fill="none">
+                                <g clip-path="url(#clip0_31_872)">
+                                    <path
+                                        d="M11.6827 6.17802L4.00062 12.5051V19.3339C4.00062 19.5107 4.07086 19.6802 4.19589 19.8053C4.32091 19.9303 4.49048 20.0005 4.66729 20.0005L9.33645 19.9884C9.51269 19.9876 9.6814 19.9169 9.80571 19.792C9.93001 19.6671 9.99979 19.498 9.99979 19.3218V15.3339C9.99979 15.157 10.07 14.9875 10.195 14.8625C10.3201 14.7374 10.4896 14.6672 10.6665 14.6672H13.3331C13.5099 14.6672 13.6795 14.7374 13.8045 14.8625C13.9295 14.9875 13.9998 15.157 13.9998 15.3339V19.3189C13.9995 19.4066 14.0166 19.4935 14.0499 19.5746C14.0833 19.6557 14.1324 19.7295 14.1943 19.7916C14.2562 19.8537 14.3298 19.903 14.4108 19.9367C14.4919 19.9703 14.5787 19.9876 14.6665 19.9876L19.334 20.0005C19.5108 20.0005 19.6803 19.9303 19.8054 19.8053C19.9304 19.6802 20.0006 19.5107 20.0006 19.3339V12.5005L12.3202 6.17802C12.2299 6.10524 12.1174 6.06555 12.0015 6.06555C11.8855 6.06555 11.773 6.10524 11.6827 6.17802ZM23.8173 10.4784L20.334 7.60719V1.83594C20.334 1.70333 20.2813 1.57615 20.1875 1.48238C20.0937 1.38862 19.9666 1.33594 19.834 1.33594H17.5006C17.368 1.33594 17.2408 1.38862 17.1471 1.48238C17.0533 1.57615 17.0006 1.70333 17.0006 1.83594V4.86135L13.2702 1.79219C12.9122 1.4976 12.463 1.33653 11.9994 1.33653C11.5358 1.33653 11.0865 1.4976 10.7285 1.79219L0.181458 10.4784C0.130828 10.5203 0.0889391 10.5717 0.0581858 10.6297C0.0274324 10.6878 0.00841698 10.7513 0.0022259 10.8167C-0.00396519 10.8821 0.00278944 10.9481 0.0221038 11.0109C0.0414182 11.0736 0.0729138 11.132 0.114791 11.1826L1.17729 12.4743C1.21905 12.5251 1.27042 12.5671 1.32846 12.598C1.38649 12.6289 1.45005 12.6481 1.5155 12.6544C1.58094 12.6607 1.64699 12.654 1.70986 12.6348C1.77273 12.6155 1.83118 12.5841 1.88187 12.5422L11.6827 4.46969C11.773 4.39691 11.8855 4.35722 12.0015 4.35722C12.1174 4.35722 12.2299 4.39691 12.3202 4.46969L22.1215 12.5422C22.1721 12.5841 22.2304 12.6156 22.2932 12.6349C22.356 12.6542 22.422 12.6609 22.4873 12.6548C22.5527 12.6486 22.6163 12.6295 22.6743 12.5988C22.7324 12.568 22.7838 12.5262 22.8256 12.4755L23.8881 11.1839C23.9299 11.133 23.9613 11.0743 23.9804 11.0112C23.9995 10.9482 24.0059 10.882 23.9993 10.8164C23.9928 10.7509 23.9733 10.6873 23.942 10.6293C23.9108 10.5713 23.8684 10.52 23.8173 10.4784Z"
+                                        fill="#CCCCCC" />
+                                </g>
+                            </svg>14 Srebarna, Sofia 1407, Bulgaria</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="after:flex after:w-[1920px] after:bg-[#4C4C4C] after:h-[1px]"></div>
+        <div class="max-w-[1320px] mx-auto px-3">
+            <div class="sm:flex justify-between py-9">
+                <div>
+                    <p class="text-white ff-Gilroy font-normal text-sm pb-3">© Vipe Studio 2016-2022</p>
+                    <div class="flex gap-3">
+                        <p class="text-white ff-Gilroy font-normal text-sm border-r border-white pr-2">Privacy</p>
+                        <p class="text-white ff-Gilroy font-normal text-sm border-r border-white pr-2">Careers</p>
+                        <p class="text-white ff-Gilroy font-normal text-sm border-r border-white pr-2">Media</p>
+                        <p class="text-white ff-Gilroy font-normal text-sm">Client Area</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 sm:gap-4 pt-5 sm:pt-0">
+                    <img src="assets/images/github.svg" alt="github">
+                    <img src="assets/images/linkedIn.svg" alt="linkedin">
+                    <img src="assets/images/twitter.svg" alt="twitter">
+                    <img src="assets/images/facebook.svg" alt="facebook">
+                    <img src="assets/images/instagram.svg" alt="instagram">
+                    <img src="assets/images/w-logo.svg" alt="wordPress">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/task.js"></script>
+</body>
+
+</html>

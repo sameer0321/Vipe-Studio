@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.show {
+    left: 0;
+}
+
+.rotate1 {
+    transform: rotate(45deg);
+}
+
+.rotate2 {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -8px;
+}
+
+.rotate3 {
+    display: none !important;
+}
+
+.ff-Konexy {
+    font-family: ff-Konexy;
+}
+
+.ff-Gilroy {
+    font-family: ff-Gilroy;
+}
+
+#top {
+    display: none;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    z-index: 7;
+}
+
+.preloader-img {
+    width: 100px;
+    height: 100px;
+    animation-name: preloader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@font-face {
+    font-family: ff-Konexy;
+    src: url("/assets/fonts/ff-Konexy/KonexyPersonalUse.otf");
+}
+
+@font-face {
+    font-family: ff-Gilroy;
+    src: url("/assets/fonts/ff-Gilroy/Gilroy-Regular.ttf");
+}
+
+@keyframes preloader {
+    0% {
+        transform: scale(0.8);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
